@@ -3,7 +3,7 @@
 <img src="README_files/simpson.gif"></img>
 
 # About project
-<p>URL: <a href="https://chebupa.github.io/">chebupa.ru</a><br></p>
+<p>URL: <a href="https://chebupa.github.io/">chebupa.github.io</a><br></p>
 <p>Currently my main pet project. <br>
 My own website, where you can find info about me and some projects. <br>
 This website will be used to train my programming skills.</p>
