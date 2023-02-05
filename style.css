@@ -1,0 +1,43 @@
+/* FONTS */
+/* montseratt */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+	background-color: white;
+	font-family: 'Montserrat', sans-serif;
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+
+/* 1200px SCREEN (laptops) */
+@media screen and (min-width: 1200px) {
+	/*body {
+		background-color: red;
+	}*/
+}
+/* 998px SCREEN (tablet) */
+@media screen and (min-width: 998px) and (max-width: 1199px) {
+	/*body {
+		background-color: orange;
+	}*/
+}
+/* 768px SCREEN (tablet) */
+@media screen and (min-width: 768px) and (max-width: 997px) {
+	/*body {
+		background-color: yellow;
+	}*/
+}
+/* 576px SCREEN (phone) */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+	/*body {
+		background-color: yellowgreen;
+	}*/
+}
+/* 320px SCREEN (phone) */
+@media screen and (min-width: 320px) and (max-width: 575px) {
+	/*body {
+		background-color: green;
+	}*/
+}
