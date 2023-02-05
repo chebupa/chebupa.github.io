@@ -1,9 +1,11 @@
 # Chebupa-site
 
-<h2>About project</h2>
+<h2>About project
 <p>Currently my main pet project. <br>
 My own website, where you can find info about me and some projects. <br>
 This website will be used to train my programming skills.</p>
+</h2>
+
 
 
 
