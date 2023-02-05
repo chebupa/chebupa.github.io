@@ -90,7 +90,7 @@ index.html      | Индексный файл для проверки вноси
 <!-- Donate -->
 ### Support me:
 <a href="https://www.donationalerts.com/r/chebupa">
-  <img src="qr_donate.png" width="100" height="100"></img>
+  <img src="README_files/qr_donate.png" width="100" height="100"></img>
 </a>
 
 <!-- visitor count -->
