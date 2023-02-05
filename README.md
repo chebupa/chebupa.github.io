@@ -1,6 +1,6 @@
 # Chebupa-site
-<p>Currently my main pet project. 
-My own website, where you can find info about me and some projects. 
+<p>Currently my main pet project. <br>
+My own website, where you can find info about me and some projects. <br>
 This website will be used to train my programming skills.</p>
 
 
