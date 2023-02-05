@@ -2,7 +2,7 @@
 
 <img src="README_files/simpson.gif"></img>
 
-# About project
+# Personal webpage
 <p>URL: <a href="https://chebupa.github.io/">chebupa.github.io</a><br></p>
 <p>Currently my main pet project. <br>
 My own website, where you can find info about me and my projects. <br>
