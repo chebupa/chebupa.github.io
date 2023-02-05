@@ -3,7 +3,7 @@
 <img src="README_files/simpson.gif"></img>
 
 # About project
-<p>URL: <a href="https://chebupa.ru/">chebupa.ru</a><br></p>
+<p>URL: <a href="https://chebupa.github.io/">chebupa.ru</a><br></p>
 <p>Currently my main pet project. <br>
 My own website, where you can find info about me and some projects. <br>
 This website will be used to train my programming skills.</p>
@@ -25,7 +25,7 @@ index.html      | Индексный файл для проверки вноси
 
 # About me
  
-<h1 align="center">Hi there, I'm <a href="https://chebupa.ru/" target="_blank">Aristarh 👋</a></h1>
+<h1 align="center">Hi there, I'm <a href="https://chebupa.github.io/" target="_blank">Aristarh 👋</a></h1>
 
 <h1 align="center">
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&duration=3500&pause=1&color=20F700&center=true&vCenter=true&width=435&lines=Computer+science+student;and+a+frontend+developer" alt="Typing SVG" /></a>
