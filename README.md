@@ -3,6 +3,7 @@
 <img src="README_files/simpson.gif"></img>
 
 # About project
+<p>URL: chebupa.ru</p>
 <p>Currently my main pet project. <br>
 My own website, where you can find info about me and some projects. <br>
 This website will be used to train my programming skills.</p>
