@@ -2,20 +2,52 @@
 /* montseratt */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+* {
+	margin: 0;
+	padding: 0;
+}
+
 body {
 	background-color: white;
 	font-family: 'Montserrat', sans-serif;
 	overflow-x: hidden;
-	margin: 0;
-	padding: 0;
 }
 
 
 /* 1200px SCREEN (laptops) */
 @media screen and (min-width: 1200px) {
-	/*body {
+	/* body {
 		background-color: red;
-	}*/
+	} */
+
+	header {
+		display: flex;
+
+		width: 100%;
+		padding: 15px;
+
+		background-color: red;
+		box-shadow: 0px 0px 10px gray;
+	}
+	header img {
+		width: 50px;
+		/* height: ; */
+
+		border-radius: 100%;
+	}
+	header p {
+		margin: auto 15px auto 15px;
+
+		font-size: 20px;
+		font-weight: 700;
+		text-align: center;
+	}
+	.github_profile_link {
+		display: flex;
+		text-decoration: none;
+		color: black;
+		width: auto;
+	}
 }
 /* 998px SCREEN (tablet) */
 @media screen and (min-width: 998px) and (max-width: 1199px) {
