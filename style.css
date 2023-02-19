@@ -73,6 +73,13 @@ body {
 		color: black;
 		text-decoration: underline;
 	}
+	.chebucraft-link {
+		margin: auto;
+	}
+	.chebucraft-link:hover {
+		color: black;
+		text-decoration: underline;
+	}
 
 	/* scroll up button */
 	#toTop {
@@ -132,9 +139,39 @@ body {
 		margin-bottom: 75px;
 	}
 
+	/* faces */
+	.greeting .chb_face1 {
+		position: absolute;
+		top: 100px;
+		right: -50px;
+
+		transform: rotate(-10deg);
+	}
+	.greeting .chb_face2 {
+		position: absolute;
+		top: 100px;
+		left: 10px;
+
+		transform: rotate(10deg);
+	}
+	.greeting .chb_face3 {
+		position: absolute;
+	}
+	.greeting .chb_face4 {
+		position: absolute;
+	}
+	.greeting .chb_face5 {
+		position: absolute;
+	}
+
+
 	.about-me {
 		background-color: white;
 		box-shadow: 0px 1px 10px lightgrey;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
 	}
 	.about-me h2 {
 		text-align: center;
@@ -142,6 +179,7 @@ body {
 		font-size: 50px;
 		font-weight: 500;
 
+		margin-bottom: 15px;
 		margin-top: 10px;
 	}
 	.about-me img {
@@ -151,7 +189,7 @@ body {
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
-		padding: 25px;
+		align-items: center;
 	}
 	.about-me-info h3 {
 		font-size: 40px;
@@ -190,17 +228,19 @@ body {
 
 	.projects-list {
 		display: flex;
-		justify-content: flex-start;
+		margin: 0px;
 		flex-wrap: wrap;
+		justify-content: center;
 	}
 	.projects-list li {
 		width: 300px;
 		height: 300px;
 		background-color: rgb(43, 122, 240);
 		border-radius: 50px;
+
+		/* flex: 1 1 auto; */
 		margin: 15px;
 		box-shadow: 0px 5px 10px lightgrey;
-
 		transition: 0.5s;
 	}
 	.projects-list li:hover {
@@ -236,6 +276,9 @@ body {
 		color: white;
 	}
 
+	.meme img {
+		border-radius: 50px;
+	}
 	/* footer */
 
 	.asd {
@@ -265,124 +308,4 @@ body {
 	/* body {
 		background-color: green;
 	} */
-
-	/* nav bar */
-	nav {
-		position: fixed;
-		top: 0;
-		right: 0;
-		left: 0;
-
-		display: flex;
-		justify-content: space-between;
-		z-index: 999;
-
-		padding: 12.5px;
-		background-color: white;
-		box-shadow: 0px 1px 10px lightgrey;
-	}
-	nav p {
-		font-weight: 600;
-		font-size: 1.25rem;
-		margin: auto 15px auto 10px;
-
-		color: black;
-	}
-	.github-profile-link {
-		display: flex;
-	}
-	.github-profile-link img {
-		border-radius: 100%;
-		width: 50px;
-	}
-	.links {
-		display: none;
-	}
-	.links p {
-		font-weight: 500;
-	}
-	.chebuhub-link {
-		margin: auto;
-	}
-	.chebuhub-link:hover {
-		color: black;
-		text-decoration: underline;
-	}
-	.wallpapers-link {
-		margin: auto;
-	}
-	.wallpapers-link:hover {
-		color: black;
-		text-decoration: underline;
-	}
-
-	/* scroll up button */
-	#toTop {
-		display: flex;
-	    justify-content: center;
-	    align-items: center;
-
-	    padding: 17px;
-
-	    position: fixed; /* Fixed/sticky position */
-	    bottom: 15px;
-	    right: -1px;
-	    z-index: 99;
-	    border: none; /* Remove borders */
-	    outline: none; /* Remove outline */
-	    background-color: #0075FF;
-	    cursor: pointer; /* Add a mouse pointer on hover */
-	    border-radius: 0.9375rem;
-		opacity: 0;
-		visibility: hidden;
-	  	transition: all .3s ease-in-out;
-	}
-
-	#toTop:hover svg {
-		cursor: pointer;
-	}
-
-	#toTop.show {
-		opacity: 1;
-		visibility: visible;
-		right: 15px;
-	}
-
-	/* main content */
-	.greeting {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
-	.greeting h1 {
-		font-size: 3.125rem;
-		font-weight: 700;
-		text-align: center;
-		margin-top: 175px;
-	}
-	.greeting h2 {
-		text-align: center;
-		font-weight: 500;
-		margin-top: 15px;
-	}
-	.greeting a {
-		color: rgb(43, 122, 240);
-		text-decoration: underline;
-	}
-	.greeting img {
-		/* border-radius: 100%; */
-		margin-top: 15px;
-	}
-
-	.about-me {
-		box-shadow: 0px 1px 10px lightgrey;
-	}
-	.about-me h2 {
-		text-align: center;
-
-		font-size: 50px;
-		font-weight: 500;
-
-		margin-top: 150px;
-	}
 }
