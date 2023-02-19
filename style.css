@@ -13,10 +13,9 @@ a {
 }
 
 body {
-	background-color: white;
+	background-color: black;
 	font-family: 'Montserrat', sans-serif;
 }
-
 
 /* 1200px SCREEN (laptops) */
 @media screen and (min-width: 1200px) {
@@ -120,12 +119,14 @@ body {
 		align-items: center;
 	}
 	.greeting h1 {
+		color: white;
 		font-size: 6.25rem;
 		font-weight: 700;
 		text-align: center;
 		margin-top: 125px;
 	}
 	.greeting h2 {
+		color: lightgray;
 		text-align: center;
 		font-weight: 500;
 		margin-top: 15px;
@@ -142,30 +143,53 @@ body {
 	/* faces */
 	.greeting .chb_face1 {
 		position: absolute;
-		top: 100px;
-		right: -50px;
+		top: 250px;
+		right: -100px;
 
 		transform: rotate(-10deg);
 	}
 	.greeting .chb_face2 {
 		position: absolute;
-		top: 100px;
-		left: 10px;
+		top: -100px;
+		left: -110px;
 
-		transform: rotate(10deg);
+		transform: rotate(-225deg);
+		scale: 70%;
 	}
 	.greeting .chb_face3 {
 		position: absolute;
+		top: -250px;
+		right: -150px;
+
+		transform: rotate(180deg);
+		scale: 52.5%;
 	}
 	.greeting .chb_face4 {
 		position: absolute;
+		top: 100px;
+
+		scale: 75%;
 	}
 	.greeting .chb_face5 {
 		position: absolute;
+		top: 125px;
+		left: -100px;
+
+		transform: rotate(-20deg);
+		scale: 60%;
+	}
+	.greeting .chb_face6 {
+		position: absolute;
+		top: 100px;
+		right: -150px;
+		
+		transform: rotate(-15deg);
+		scale: 57%;
 	}
 
 
 	.about-me {
+		z-index: 99;
 		background-color: white;
 		box-shadow: 0px 1px 10px lightgrey;
 		display: flex;
