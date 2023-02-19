@@ -133,7 +133,6 @@ body {
 	}
 
 	.about-me {
-		z-index: 10;
 		background-color: white;
 		box-shadow: 0px 1px 10px lightgrey;
 	}
@@ -156,7 +155,6 @@ body {
 	}
 	.about-me-info h3 {
 		font-size: 40px;
-		margin-bottom: 10px;
 	}
 
 	.cv .download-btn {
@@ -170,6 +168,7 @@ body {
 		border: 2px solid rgb(43, 122, 240);
 		border-radius: 20px;
 		background-color: rgb(43, 122, 240);
+		margin: 10px 0px 10px 0px;
 
 		transition: 0.5s;
 	}
@@ -188,6 +187,55 @@ body {
 
 		transition: 0.1s;
 	}
+
+	.projects-list {
+		display: flex;
+		justify-content: flex-start;
+		flex-wrap: wrap;
+	}
+	.projects-list li {
+		width: 300px;
+		height: 300px;
+		background-color: rgb(43, 122, 240);
+		border-radius: 50px;
+		margin: 15px;
+		box-shadow: 0px 5px 10px lightgrey;
+
+		transition: 0.5s;
+	}
+	.projects-list li:hover {
+		scale: 105%;
+
+		transition: 0.5s;
+	}
+	.projects-list .a1 {
+		/* background: url(img/); */
+	}
+	.projects-list .a2 {
+		/* background: url(img/); */
+	}
+	.projects-list .a3 {
+		background: url(img/wallpaper.gif);
+	}
+	.projects-list .a4 {
+		position: relative;
+		background: url(img/minecraft.png);
+	}
+	.projects-list .a4 img {
+		position: absolute;
+		border-radius: 0%;
+		width: 180%;
+		right: -130px;
+	}
+	.projects-list h3 {
+		position: absolute;
+		z-index: 10;
+		margin: 25px 0px 0px 15px;
+		text-align: left;
+
+		color: white;
+	}
+
 	/* footer */
 
 	.asd {
