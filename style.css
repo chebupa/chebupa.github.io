@@ -149,6 +149,7 @@ body {
 		transform: rotate(-10deg);
 	}
 	.greeting .chb_face2 {
+		display: none;
 		position: absolute;
 		top: -100px;
 		left: -110px;
@@ -157,6 +158,7 @@ body {
 		scale: 70%;
 	}
 	.greeting .chb_face3 {
+		display: none;
 		position: absolute;
 		top: -250px;
 		right: -150px;

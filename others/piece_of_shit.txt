@@ -1,0 +1,20 @@
+hsaashbdashbdjas
+
+HEllooo wOWoowowowowowrld
+
+
+ _[{{
+(
+asdasdadad
+
+Hello World
+
+console.log('Hello WOlrd')
+
+const a = window.prompt('What is your name?')
+
+if (typeof a === 'string') {
+    console.log('it is a string')
+} else {
+    console.log('adsaasdasd')
+}
