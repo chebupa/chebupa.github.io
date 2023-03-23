@@ -36,7 +36,7 @@ body {
 
 		padding: 12.5px;
 		background-color: white;
-		/* box-shadow: 0px 1px 10px lightgrey; */
+		box-shadow: 0px 1px 10px lightgrey;
 	}
 	nav p {
 		font-weight: 600;
