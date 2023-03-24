@@ -111,6 +111,21 @@ body {
 		visibility: visible;
 		right: 15px;
 	}
+
+	/* main content */
+	.wrapper {
+		width: 100%;
+		text-align: center;
+	}
+	.welcome {
+		color: white;
+	}
+	.welcome h1 {
+		margin-top: 250px;
+	}
+	.welcome p {
+		margin-top: 10px;
+	}
 }
 /* 998px SCREEN (tablet) */
 @media screen and (min-width: 998px) and (max-width: 1199px) {

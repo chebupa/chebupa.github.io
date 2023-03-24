@@ -80,38 +80,6 @@ body {
 		text-decoration: underline;
 	}
 
-	/* scroll up button */
-	#toTop {
-		display: flex;
-	    justify-content: center;
-	    align-items: center;
-
-	    padding: 17px;
-
-	    position: fixed; /* Fixed/sticky position */
-	    bottom: 15px;
-	    right: -1px;
-	    z-index: 99;
-	    border: none; /* Remove borders */
-	    outline: none; /* Remove outline */
-	    background-color: #0075FF;
-	    cursor: pointer; /* Add a mouse pointer on hover */
-	    border-radius: 0.9375rem;
-		opacity: 0;
-		visibility: hidden;
-	  	transition: all .3s ease-in-out;
-	}
-
-	#toTop:hover svg {
-		cursor: pointer;
-	}
-
-	#toTop.show {
-		opacity: 1;
-		visibility: visible;
-		right: 15px;
-	}
-
 	/* main content */
 	.greeting {
 		display: flex;
