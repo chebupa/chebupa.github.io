@@ -113,7 +113,7 @@ body {
 	}
 
 	/* main content */
-	.wrapper {
+	.welcome-wrapper {
 		width: 100%;
 		text-align: center;
 	}
@@ -121,10 +121,12 @@ body {
 		color: white;
 	}
 	.welcome h1 {
+		font-size: 100px;
 		margin-top: 250px;
 	}
 	.welcome p {
-		margin-top: 10px;
+		font-size: 20px;
+		margin-top: 5px;
 	}
 }
 /* 998px SCREEN (tablet) */
