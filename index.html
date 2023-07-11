@@ -54,25 +54,38 @@
 					<h3>My projects:</h3>
 					<ul class="projects-list">
 
-							<!-- ChebuCraft -->
-							<li class="chebucraft-button">
-								<a href="#" id="pop-up-open">
-									<h3>ChebuCraft</h3>
-									<img src="img/minecraft.webp">
-								</a>
-							</li>
-							<!-- ChebuCraft pop-up context menu -->
-							<div class="pop-up" id="pop-up">
-								<div class="pop-up-container">
-									<div class="pop-up-body" id="pop-up-body">
-										<img src="img/minecraft.webp">
+						<!-- chebucraft modal window -->
+						<li class="chebucraft-button">
+							<button class="btn btn-open">
+								<h2>ChebuCraft</h2>
+								<img src="img/minecraft.webp">
+							</button>
+						</li>
+
+						<!-- chebucraft modal window -->
+						<div class="overlay hidden">
+							<section class="modal hidden">
+								<div class="flex">
+
+									<img src="img/minecraft_wide.webp"/>
+
+									<div class="flex2">
 										<h2>ChebuCraft</h2>
-										<p>ChebuCraft is a private SMP Minecraft server.</p>
-										<div class="pop-up-close" id="pop-up-close"></div>
+										<p class="chebucraft-info-p">ChebuCraft is a private SMP Minecraft server.</p>
+										<div class="chebucraft-link">
+											<a href="https://chebucraft.github.io">
+												<p>Learn more</p>
+											</a>
+										</div>
 									</div>
+
+									<div class="flex3">
+										<button class="btn-close">⨉</button>
+									</div>
+
 								</div>
-							</div>
-							<!---->
+							</section>
+						</div>
 						
 					</ul>
 

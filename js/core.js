@@ -1,16 +1,34 @@
 // the main js file
 console.log('JS connected succesfuly')
 
+
 // ChebuCraft pop-up context menu
-const openPopUp = document.getElementById('pop-up-open')
-const closePopUp = document.getElementById('pop-up-close')
-const popUp = document.getElementById('pop-up')
+const modal = document.querySelector(".modal");
+const overlay = document.querySelector(".overlay");
+const openModalBtn = document.querySelector(".btn-open");
+const closeModalBtn = document.querySelector(".btn-close");
 
-openPopUp.addEventListener('click', function(e) {
-  e.preventDefault()
-  popUp.classList.add('active')
-})
+// close modal function
+const closeModal = function () {
+  modal.classList.add("hidden");
+  overlay.classList.add("hidden");
+};
 
-closePopUp.addEventListener('click', function() {
-  popUp.classList.remove('active')
-})
+// close the modal when the close button and overlay is clicked
+closeModalBtn.addEventListener("click", closeModal);
+overlay.addEventListener("click", closeModal);
+
+// close modal when the Esc key is pressed
+document.addEventListener("keydown", function (e) {
+  if (e.key === "Escape" && !modal.classList.contains("hidden")) {
+    closeModal();
+  }
+});
+
+// open modal function
+const openModal = function () {
+  modal.classList.remove("hidden");
+  overlay.classList.remove("hidden");
+};
+// open modal event
+openModalBtn.addEventListener("click", openModal);
