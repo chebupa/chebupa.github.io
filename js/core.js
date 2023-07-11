@@ -1,8 +1,16 @@
 // the main js file
 console.log('JS connected succesfuly')
 
-// imports
-import { scrollToFn } from "./functions"
+// ChebuCraft pop-up context menu
+const openPopUp = document.getElementById('pop-up-open')
+const closePopUp = document.getElementById('pop-up-close')
+const popUp = document.getElementById('pop-up')
 
-// main code
-scrollToFn()
+openPopUp.addEventListener('click', function(e) {
+  e.preventDefault()
+  popUp.classList.add('active')
+})
+
+closePopUp.addEventListener('click', function() {
+  popUp.classList.remove('active')
+})

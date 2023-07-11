@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Chebupa</title>
-	<script src="js/core.js"></script>
+	<!-- <script src="js/core.js"></script> -->
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="shortcut icon" type="image/icon" href="img/logos/chebupa_logo_main.png">
 </head>
@@ -54,19 +54,27 @@
 					<h3>My projects:</h3>
 					<ul class="projects-list">
 
-							<li class="a4"> <!-- ChebuCraft -->
-								<div>
+							<!-- ChebuCraft -->
+							<li class="chebucraft-button">
+								<a href="#" id="pop-up-open">
 									<h3>ChebuCraft</h3>
-									<img src="img/minecraft-2575225.webp">
-								</div>
+									<img src="img/minecraft.webp">
+								</a>
 							</li>
+							<!-- ChebuCraft pop-up context menu -->
+							<div class="pop-up" id="pop-up">
+								<div class="pop-up-container">
+									<div class="pop-up-body" id="pop-up-body">
+										<img src="img/minecraft.webp">
+										<h2>ChebuCraft</h2>
+										<p>ChebuCraft is a private SMP Minecraft server.</p>
+										<div class="pop-up-close" id="pop-up-close"></div>
+									</div>
+								</div>
+							</div>
+							<!---->
 						
 					</ul>
-
-					<!-- ChebuCraft context menu -->
-					<div class="chebucraft-context-menu unvisible">
-						
-					</div>
 
 				</section>
 
@@ -106,5 +114,6 @@
 		</div>
 	</footer>
 
+	<script src="js/core.js"></script>
 </body>
 </html>
