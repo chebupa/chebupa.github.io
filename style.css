@@ -380,6 +380,9 @@ body::-webkit-scrollbar {
 	.chebucraft-link a:hover {
 		color: black;
 	}
+	.chebu-link {
+		color: white;
+	}
 
 	.btn {
 		width: auto;
