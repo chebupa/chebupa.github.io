@@ -8,20 +8,13 @@
 	overflow-x: hidden;
 	box-sizing: border-box;
 	border-radius: 0px;
-}
-
-a {
-	text-decoration: none;
-}
-a:link{
-  text-decoration: none !important;
+	text-decoration: none !important;
 }
 
 button {
 	border: none !important;
 	background-color: transparent;
 }
-
 
 body {
 	/* background-image: url(img/black_unity_wallpaper.png); */
@@ -212,6 +205,7 @@ body::-webkit-scrollbar {
 	}
 
 	.projects-list {
+		overflow: hidden;
 		display: flex;
 		margin: 0px;
 		flex-wrap: wrap;
@@ -224,7 +218,7 @@ body::-webkit-scrollbar {
 		background-color: transparent;
 		border-radius: 50px;
 		border: none;
-		overflow: hidden;
+		overflow-y: hidden;
 
 		/* flex: 1 1 auto; */
 		margin: 15px;
@@ -233,24 +227,22 @@ body::-webkit-scrollbar {
 	}
 	.projects-list li:hover {
 		scale: 105%;
+		overflow-y: hidden;
 
-		cursor: url('img/macos_pointer.svg');
+		cursor: url('img/macos_pointer.svg'), auto;
 
 		transition: 0.5s;
 	}
-	/* .projects-list:active {
-		scale: 85%;
-
-		transition: 0.1s;
-	} */
+	.projects-list li:active {
+		overflow: hidden;
+	}
 	
-	
-
 	.projects-list img {		/* img {max-width:100%;height:auto;} */
 		border-radius: 0%;
 		width: 100%;
-		z-index: 9;
 
+		z-index: 9;
+		overflow: hidden;
 	}
 	.projects-list h2 {
 		font-family: 'Montserrat', sans-serif;
@@ -262,6 +254,7 @@ body::-webkit-scrollbar {
 
 		color: white;
 	}
+
 	/* ChebuCraft modal window */
 	.overlay {
 		display: flex;
@@ -283,7 +276,6 @@ body::-webkit-scrollbar {
 
 		z-index: 99;
 	}
-
 	.modal {
 		position: absolute;
 		display: flex;
@@ -291,7 +283,6 @@ body::-webkit-scrollbar {
 		border-radius: 35px;
 		padding: 25px;
 	}
-	
 	.modal .flex {
 		display: flex;
 		align-items: center;
@@ -302,7 +293,6 @@ body::-webkit-scrollbar {
 
 		border-radius: 25px;
 	}
-	
 	.modal input {
 		padding: 0.7rem 1rem;
 		border: 1px solid #ddd;
@@ -313,7 +303,6 @@ body::-webkit-scrollbar {
 		color: black;
 		position: relative;
 	}
-	
 	.modal p {
 		font-size: 0.9rem;
 		color: #777;
@@ -350,7 +339,6 @@ body::-webkit-scrollbar {
 		justify-content: flex-start;
 		align-items: center;
 	}
-
 	.chebucraft-link {
 		border-radius: 15px;
 		cursor: url('img/macos_pointer.svg'), auto;
@@ -358,9 +346,10 @@ body::-webkit-scrollbar {
 		overflow: hidden;
 
 		font-size: 25px;
+		line-height: 45px;
 
-		margin: 20px 0px 0px 56px;
-		padding: 15px;
+		padding: 0px 15px 0px 15px;
+		margin: 20px 0px 10px 56px;
 
 		text-decoration: none;
 
@@ -369,12 +358,13 @@ body::-webkit-scrollbar {
 		transition: 0.5s;
 	}
 	.chebucraft-link:hover {
-		border: 2px solid black;
+		/* box-shadow: 0px 0px 10px 1px rgb(43, 122, 240); */
 		background-color: white;
+		border: 2px solid black;
 		color: black;
 
 		cursor: url(img/macos_pointer.svg), auto;
-
+		/* scale: 103%; */
 		transition: 0.5s;
 	}
 	.chebucraft-link:active {
@@ -383,17 +373,19 @@ body::-webkit-scrollbar {
 		transition: 0.1s;
 	}
 	.chebucraft-link a {
-		text-decoration: none;
+		color: white;
+
+		text-decoration: none !important;
+	}
+	.chebucraft-link a:hover {
+		color: black;
 	}
 
-	
-	
 	.btn {
-		width: 300px;
-		height: 300px;
+		width: auto;
+		height: auto;
 		border: none;
 	}
-	
 	.btn-close {
 		position: absolute;
 		transform: translate(10px, -20px);
@@ -409,7 +401,6 @@ body::-webkit-scrollbar {
 
 		transition: 0.5s;
 	}
-	
 	.hidden {
 		display: none;
 	}
@@ -437,6 +428,7 @@ body::-webkit-scrollbar {
 		border-radius: 0px;
 	}
 
+	/* footer */
 	footer {
 		display: flex;
 		flex-direction: column;

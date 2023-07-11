@@ -16,7 +16,7 @@ const closeModal = function () {
 
 // close the modal when the close button and overlay is clicked
 closeModalBtn.addEventListener("click", closeModal);
-overlay.addEventListener("click", closeModal);
+// overlay.addEventListener("click", closeModal);
 
 // close modal when the Esc key is pressed
 document.addEventListener("keydown", function (e) {
