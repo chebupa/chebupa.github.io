@@ -5,14 +5,15 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Chebupa</title>
-	<!-- <script src="js/core.js"></script> -->
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="shortcut icon" type="image/icon" href="img/logos/chebupa_logo_main.png">
 </head>
 
 <body>
-	<img class="background-img" src="img/black_unity_wallpaper.png">
-
+	<div class="background-wrapper">
+		<img class="background-img" src="img/black_unity_wallpaper.png">
+	</div>
+	
 	<!-- nav bar -->
 	<header>
 		<nav>
@@ -54,33 +55,68 @@
 					<h3>My projects:</h3>
 					<ul class="projects-list">
 
-						<!-- chebucraft modal window -->
+						<!-- ChebuCraft preview -->
 						<li class="chebucraft-button">
-							<button class="btn btn-open">
+							<button class="btn chebucraft-btn-open">
 								<h2>ChebuCraft</h2>
 								<img src="img/minecraft.webp">
 							</button>
 						</li>
 
-						<!-- chebucraft modal window -->
-						<div class="overlay hidden">
-							<section class="modal hidden">
-								<div class="flex">
+						<!-- ChebuCraft modal window -->
+						<div class="chebucraft-overlay hidden">
+							<section class="chebucraft-modal hidden">
+								<div class="chebucraft-flex">
 
 									<img src="img/minecraft_wide.webp"/>
 
-									<div class="flex2">
+									<div class="chebucraft-flex2">
 										<h2>ChebuCraft</h2>
 										<p class="chebucraft-info-p">ChebuCraft is a private Minecraft SMP server.</p>
 
-											<a href="https://chebucraft.github.io" class="chebu-link">
+											<a href="https://chebupa.github.io/chebucraft/" class="chebu-link">
 												<div class="chebucraft-link">Learn more</div>
 											</a>
 
 									</div>
 
-									<div class="flex3">
-										<button class="btn-close">⨉</button>
+									<div class="chebucraft-flex3">
+										<button class="chebucraft-btn-close">⨉</button>
+									</div>
+
+								</div>
+							</section>
+						</div>
+
+
+						<!-- QR Code creator preview -->
+						<li class="qrcode-button">
+							<button class="btn qrcode-btn-open">
+								<h2>QR Code</h2>
+								<img src="img/empty_300_300.webp">
+							</button>
+						</li>
+
+						<!-- QR Code creator modal window -->
+						<div class="qrcode-overlay hidden">
+							<section class="qrcode-modal hidden">
+								<div class="qrcode-flex">
+
+									<img src="img/minecraft_wide.webp"/>
+
+									<div class="qrcode-flex2">
+										<h2>QR Code</h2>
+										<p class="qrcode-info-p">ChebuCraft is a private Minecraft SMP server.</p>
+
+											<a href="https://chebupa.github.io/qrcode-creator/" class="chebu-link">
+												<div class="qrcode-link">Learn more</div>
+											</a>
+
+
+									</div>
+
+									<div class="qrcode-flex3">
+										<button class="qrcode-btn-close">⨉</button>
 									</div>
 
 								</div>
