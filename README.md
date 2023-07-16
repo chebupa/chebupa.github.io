@@ -8,6 +8,9 @@
 My own website, where you can find info about me and my projects. <br>
 This website will be used to train my programming skills.</p>
 
+<img src="README_files/website_preview/preview_img1.png">
+<img src="README_files/website_preview/preview_img2.png">
+
 # About me
  
 <h1 align="center">Hi there, I'm <a href="https://chebupa.github.io/" target="_blank">Aristarh 👋</a></h1>
@@ -19,7 +22,7 @@ This website will be used to train my programming skills.</p>
 </h1>
 
 
- 🌱 I’m currently learning **Frontend, JavaScript, frameworks**
+ 🌱 I’m currently learning **Frontend, JavaScript, React, WebPack**
 
  📫 How to reach me **aristarhsakulin@gmail.com**
 
