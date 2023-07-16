@@ -1,6 +1,7 @@
 // the main js file
 console.log('JS connected succesfuly');
 
+//TODO: 
 
 // ChebuCraft modal window
 const chebucraftModal = document.querySelector('.chebucraft-modal');
