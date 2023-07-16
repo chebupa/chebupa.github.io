@@ -13,17 +13,6 @@ This website will be used to train my programming skills.</p>
   <img src="README_files/website_preview/preview_img2.png">
 </div>
 
-<style>
-  .wrapper {
-    display: flex;
-    flex-direction: row;
-  }
-  .wrapper img {
-    width: 500px;
-    height: auto;
-  }
-</style>
-
 # About me
  
 <h1 align="center">Hi there, I'm <a href="https://chebupa.github.io/" target="_blank">Aristarh 👋</a></h1>
