@@ -22,7 +22,7 @@ This website will be used to train my programming skills.</p>
 </h1>
 
 
- 🌱 I’m currently learning **Frontend, JavaScript, React, WebPack**
+ 🌱 I’m currently learning **Frontend, JavaScript, React, Webpack**
 
  📫 How to reach me **aristarhsakulin@gmail.com**
 
