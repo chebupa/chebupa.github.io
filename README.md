@@ -18,6 +18,10 @@ This website will be used to train my programming skills.</p>
     display: flex;
     flex-direction: row;
   }
+  .wrapper img {
+    width: 500px;
+    height: auto;
+  }
 </style>
 
 # About me
