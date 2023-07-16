@@ -5,29 +5,35 @@
 # Personal webpage
 <p>URL: <a href="https://chebupa.github.io/">chebupa.github.io</a><br></p>
 <p>Currently my main pet project. <br>
-My personal website, where you can find info about me and my projects. <br>
+My own website, where you can find info about me and my projects. <br>
 This website will be used to train my programming skills.</p>
 
 # About me
  
-# <a href="https://chebupa.github.io/">chebupa.github.io</a>
- 
-<h1 align="center">Hi there 👋</a></h1>
+<h1 align="center">Hi there, I'm <a href="https://chebupa.github.io/" target="_blank">Aristarh 👋</a></h1>
 
 <h1 align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&pause=100&color=02E421&center=true&vCenter=true&multiline=true&repeat=false&width=435&lines=console.log('Hello+World')" alt="Typing SVG" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&duration=3500&pause=1&color=20F700&center=true&vCenter=true&width=435&lines=Computer+science+student;and+a+frontend+developer" alt="Typing SVG" /></a>
 
-  <!-- <img align="center" src="https://www.codewars.com/users/Chebupela/badges/large"></img> -->
+  <img align="center" src="https://www.codewars.com/users/Chebupela/badges/large"></img>
 </h1>
 
 
- 🌱 I’m currently learning **Frontend, JavaScript, React**
+ 🌱 I’m currently learning **Frontend, JavaScript, frameworks**
 
- 📫 How to reach me: **aristarhsakulin@gmail.com**
+ 📫 How to reach me **aristarhsakulin@gmail.com**
 
  🌍 I speak Russian (native), English (B2)
 
-
+### Connect with me:
+<p align="left">
+<!-- telegram -->
+<a href="https://t.me/chebupa" target="blank"><img align="center" src="https://raw.githubusercontent.com/daniilshat/daniilshat/2d7eafe5250314b3d422c86b35de062e0f1f5178/icons/Telegram.svg" alt="daniilshat" height="40" width="40" /></a>
+<!-- VK -->
+<a href="https://vk.com/chebumazh" target="blank"><img align="center" src="https://raw.githubusercontent.com/daniilshat/daniilshat/2d7eafe5250314b3d422c86b35de062e0f1f5178/icons/vk.svg" alt="daniilshat" height="40" width="40" /></a>
+<!-- codepen -->
+<a href="https://codepen.io/Chebupa" target="blank"><img align="center" src="https://raw.githubusercontent.com/daniilshat/daniilshat/2d7eafe5250314b3d422c86b35de062e0f1f5178/icons/codepen.svg" alt="daniilshat" height="40" width="40" /></a>
+</p>
 
 ### Languages:
 <p align="left"> 
