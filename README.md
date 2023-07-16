@@ -8,10 +8,8 @@
 My own website, where you can find info about me and my projects. <br>
 This website will be used to train my programming skills.</p>
 
-<div class="wrapper">
-  <img src="README_files/website_preview/preview_img1.png">
-  <img src="README_files/website_preview/preview_img2.png">
-</div>
+<img src="README_files/website_preview/preview_img1.png">
+<img src="README_files/website_preview/preview_img2.png">
 
 # About me
  
