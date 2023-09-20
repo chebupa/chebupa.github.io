@@ -1,4 +1,4 @@
-/* TODO: 1) Fix pop-up menu sizing; 2) Complete adaptive website */
+/* TODO: 1) Fix pop-up menu sizing; 2) Complete adaptive website 3) SCSS */
 
 /* FONTS */
 /* montseratt */
@@ -77,33 +77,6 @@ body::-webkit-scrollbar {
 	.github-profile-link img {
 		border-radius: 100%;
 		width: 50px;
-	}
-	.links {
-		display: flex;
-	}
-	.links p {
-		font-weight: 500;
-	}
-	.chebuhub-link {
-		margin: auto;
-	}
-	.chebuhub-link:hover {
-		color: black;
-		text-decoration: underline;
-	}
-	.wallpapers-link {
-		margin: auto;
-	}
-	.wallpapers-link:hover {
-		color: black;
-		text-decoration: underline;
-	}
-	.chebucraft-link {
-		margin: auto;
-	}
-	.chebucraft-link:hover {
-		color: black;
-		text-decoration: underline;
 	}
 
 	/* main content */
@@ -1432,6 +1405,7 @@ body::-webkit-scrollbar {
 		background: rgba(0, 0, 0, 0.5);
 		backdrop-filter: blur(3px);
 
+
 		z-index: 99;
 	}
 	.chebucraft-modal {
@@ -1441,7 +1415,8 @@ body::-webkit-scrollbar {
 		background-color: white;
 		border-radius: 35px;
 		padding: 25px;
-		margin: 50px;
+		margin: 0px 40px 0px 40px;
+		height: 50vh;
 	}
 	.chebucraft-modal .chebucraft-flex {
 		display: flex;
@@ -1464,12 +1439,7 @@ body::-webkit-scrollbar {
 		color: #777;
 		margin: 0.4rem 0 0.2rem;
 	}
-	/* .flex-1 {
-		display: flex;
-		flex-direction: row;
-
-		justify-content: space-between;
-	} */
+	
 	.chebucraft-flex2 {
 		display: flex;
 		flex-direction: column;
@@ -1478,23 +1448,14 @@ body::-webkit-scrollbar {
 	.chebucraft-flex2 h2 {
 		margin: 0px 0px 0px 56px;
 	}
+	.chebucraft-flex {
+		overflow: hidden;
+	}
 	.chebucraft-flex .chebucraft-info-p {
 		width: 250px;
 		margin: 0px 0px 0px 56px;
 	}
-	/* .flex2 a {
-		margin: 0px 0px 0px 56px;
 
-	} */
-	.chebucraft-flex3 {
-		height: 100%;
-		width: 31px;
-
-		display: flex;
-		flex-direction: column;
-		justify-content: flex-start;
-		align-items: center;
-	}
 	.chebucraft-link {
 		border-radius: 15px;
 		cursor: url('img/macos_pointer.svg'), auto;
@@ -1539,19 +1500,29 @@ body::-webkit-scrollbar {
 	.chebu-link {
 		color: white;
 	}
-
 	.btn {
 		width: auto;
 		height: auto;
 		border: none;
 	}
+	.chebucraft-flex3 {
+		height: 100%;
+		width: 31px;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		/* align-items: center; */
+	}
 	.chebucraft-btn-close {
-		position: absolute;
+		/* position: absolute; */
 		transform: translate(10px, -20px);
 		padding: 0.5rem 0.7rem;
 		background-color: #eee;
 		border-radius: 50%;
-		margin: 10px 10px 10px 10px;
+		margin: 10px;
+		right: 0px;
+		top: 0px;
 
 		transition: 0.5s;
 	}

@@ -1,7 +1,7 @@
 // the main js file
 console.log('JS connected succesfuly');
 
-//TODO: 
+//TODO: React, Webpack, Babel
 
 // ChebuCraft modal window
 const chebucraftModal = document.querySelector('.chebucraft-modal');
@@ -37,7 +37,6 @@ chebucraftOpenModalBtn.addEventListener('click', chebucraftOpenModal);
 
 
 //! ======================================================================
-
 
 
 
