@@ -1,172 +1,270 @@
-<!-- TODO: -->
-
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Chebupa</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="shortcut icon" type="image/icon" href="img/logos/chebupa_logo_main.png">
-</head>
-
-<body>
-	<div class="background-wrapper">
-		<img class="background-img" src="img/black_unity_wallpaper.webp">
-	</div>
-	
-	<!-- nav bar -->
-	<header>
-		
-		<nav>
-			<a class="github-profile-link" href="https://github.com/chebupa">
-				<img src="img/logos/chebupa_logo_main.png">
-				<p>Chebupa</p>
-			</a>
-		</nav>
-
-	</header>
-
-	<!-- scroll up button -->
-	<a href="#" id="toTop">
-		<svg width="24" height="26" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-		<path d="M10.5 24C10.5 24.8284 11.1716 25.5 12 25.5C12.8284 25.5 13.5 24.8284 13.5 24L10.5 24ZM13.0607 0.93934C12.4749 0.353553 11.5251 0.353553 10.9393 0.93934L1.3934 10.4853C0.807611 11.0711 0.807611 12.0208 1.3934 12.6066C1.97918 13.1924 2.92893 13.1924 3.51472 12.6066L12 4.12132L20.4853 12.6066C21.0711 13.1924 22.0208 13.1924 22.6066 12.6066C23.1924 12.0208 23.1924 11.0711 22.6066 10.4853L13.0607 0.93934ZM13.5 24L13.5 2L10.5 2L10.5 24L13.5 24Z" fill="white"/>
-		</svg>
-	</a>
-
-	<!-- main content -->
-	<main>
-		<section class="greeting">
-			<!-- <img class="background" src="img/black_unity_wallpaper.png"> -->
-			<h1>Hi👋, my name <br>is <a href="https://github.com/Chebupa">Aristarh</a>!</h1>
-			<h2>(Beginner web developer)</h2>
-		</section>
-
-		<section class="about-me">
-			<h2>About me</h2>
-			<section class="about-me-info">
-				<div class="cv">
-					<h3>My CV:</h3>
-					<a href="others/piece_of_shit.txt" download class="download-btn">
-						<p>Download CV</p>
-					</a>
-				</div>
-
-				<!-- projects -->
-				<section class="my-projects">
-					<h3>My projects:</h3>
-					<ul class="projects-list">
-
-						<!-- ChebuCraft preview -->
-						<li class="chebucraft-button">
-							<button class="btn chebucraft-btn-open">
-								<h2>ChebuCraft</h2>
-								<img src="img/minecraft.webp">
-							</button>
-						</li>
-
-						<!-- ChebuCraft modal window -->
-						<div class="chebucraft-overlay hidden">
-							<section class="chebucraft-modal hidden">
-								<div class="chebucraft-flex">
-
-									<img src="img/minecraft_wide.webp"/>
-
-									<div class="chebucraft-flex2">
-										<h2>ChebuCraft</h2>
-										<p class="chebucraft-info-p">ChebuCraft is a private Minecraft SMP server.</p>
-
-											<a href="https://chebupa.github.io/chebucraft/" class="chebu-link">
-												<div class="chebucraft-link">Learn more</div>
-											</a>
-
-									</div>
-
-									<div class="chebucraft-flex3">
-										<button class="chebucraft-btn-close">⨉</button>
-									</div>
-
-								</div>
-							</section>
-						</div>
+  <head>
+    <!-- Title -->
+    <title>Chebupa</title>
 
 
-						<!-- QR Code creator preview -->
-						<li class="qrcode-button">
-							<button class="btn qrcode-btn-open">
-								<h2>QR Code</h2>
-								<img src="img/empty_300_300.webp">
-							</button>
-						</li>
+    <!-- Settings -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
-						<!-- QR Code creator modal window -->
-						<div class="qrcode-overlay hidden">
-							<section class="qrcode-modal hidden">
-								<div class="qrcode-flex">
+    <script src="https://kit.fontawesome.com/fb996a0ec8.js" crossorigin="anonymous"></script>
 
-									<img src="img/minecraft_wide.webp"/>
-
-									<div class="qrcode-flex2">
-										<h2>QR Code</h2>
-										<p class="qrcode-info-p">ChebuCraft is a private Minecraft SMP server.</p>
-
-											<a href="https://chebupa.github.io/qrcode-creator/" class="chebu-link">
-												<div class="qrcode-link">Learn more</div>
-											</a>
+    <noscript>
+      <link href="/fontawesome/css/fontawesome.min.css" rel="stylesheet">
+      <link href="/fontawesome/css/brands.min.css" rel="stylesheet">
+      <link href="/fontawesome/css/solid.min.css" rel="stylesheet">
+    </noscript>
 
 
-									</div>
+    <!-- SEO -->
+    <meta name="description" content="Fullstack Web developer from Russia, Rostov-on-Don">
+    <meta name="author" content="Aristarh Shakulin">
+    <meta name="copyright" content="Aristarh Shakulin">
+    <meta name="keywords" content="web,dev,developer,development,frontend,front,backend,back,javascript,js,typescript,ts,react,vue,next">
 
-									<div class="qrcode-flex3">
-										<button class="qrcode-btn-close">⨉</button>
-									</div>
+    <link rel="canonical" href="https://chebupa.github.io/">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
 
-								</div>
-							</section>
-						</div>
-						
-					</ul>
+    <meta property="og:title" content="Chebupa">
+    <meta property="og:description" content="Fullstack Web developer from Russia, Rostov-on-Don">
+    <meta property="og:image" content="images/social.png">
 
-				</section>
+    <meta name="google-site-verification" content="">
+    <link rel="alternate" type="application/rss+xml" href="/rss.xml">
 
-				<section class="contact-me">
-					<h3>Contact me:</h3>
-					<ul>
-						<li>
-							<a href="https://github.com/Chebupa">
-								<img src="img/logos/github_logo.png">
-							</a> <!-- GitHub -->
-						</li>
-						<li>
-							<a href="https://t.me/chebupa">
-								<img src="img/logos/tg_logo.webp">
-							</a> <!-- Telegram -->
-						</li>
-						<li>
-							<a href="#">
-								<img src="img/logos/discord_logo.webp">
-							</a> <!-- Discord -->
-						</li>
-						<li>
-							<a href="https://vk.com/chebumazh">
-								<img src="img/logos/vk_logo.webp">
-							</a> <!-- VK -->
-						</li>
-					</ul>
-				</section>
-			</section>
-		</section>
-	</main>
+    <link href="/fontawesome/css/fontawesome.min.css" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link href="/fontawesome/css/brands.min.css" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link href="/fontawesome/css/solid.min.css" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
-	<!-- footer -->
-	<footer>
-		<div class="row">
-		Copyright © 2023 Chebupa - All rights reserved
-		</div>
-	</footer>
 
-	<script src="js/core.js"></script>
-</body>
+    <!-- Links -->
+    <link rel="stylesheet" href="css/global.css">
+  </head>
+
+  <body>
+    <nav>
+      <div>
+        <img src="images/chebupa/chebupa_transp_zoom.webp" alt="chebupa">
+        <p>Chebupa</p>
+      </div>
+    </nav>
+
+    <main>
+      <section class="hero">
+        <picture>
+          <source srcset="images/chebupa/chebupa.webp" type="image/webp">
+          <img src="images/avatar.png" alt="Lukas Pistrol Memoji">
+        </picture>
+
+        <p class="greeting">Hey there, this is ...</p>
+        <h1>Aristarh Shakulin</h1>
+        <p>I'm a <nobr><b>Fullstack Web developer</b></nobr> from <nobr><b>Rostov-on-Don, Russia</b>.</nobr> </p>
+        <p>See my current <b>projects </b>below! </p>
+
+        <a class="button" href="https://github.com/chebupa">Learn More</a>
+
+        <div class="clear"></div>
+      </section>
+
+      <section class="inverted" id="tmstatus">
+        <div class="project blockTransition">
+          <div>
+            <div class="image" style="
+              background-image: url('images/blank/blank.png');
+              background-image: image-set(
+                url('images/blank/blank.webp'),
+                url('images/blank/blank.png')
+              );"
+            ></div>
+          </div>
+
+          <div class="text">
+            <span class="tag development">In Development</span>
+            <h2>Untitled 1</h2>
+            <p>empty decription lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+            <a href="https://github.com/chebupa" class="link button" target="_blank" rel="noreferrer">View Project</a>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="project blockTransition right">
+          <div>
+            <div class="image" style="
+              background-image: url('images/blank/blank.png');
+              background-image: image-set(
+                url('images/blank/blank.webp'),
+                url('images/blank/blank.png')
+              );"
+            ></div>
+          </div>
+
+          <div class="text">
+            <h2>Untitled 2</h2>
+            <p>empty decription lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+            <a href="https://github.com/chebupa" class="link button" target="_blank" rel="noreferrer">View Project</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="inverted" id="journalio">
+        <div class="project blockTransition">
+          <div>
+            <div class="image" style="
+              background-image: url('images/blank/blank.png');
+              background-image: image-set(
+                url('images/blank/blank.webp'),
+                url('images/blank/blank.png')
+              );"
+            ></div>
+          </div>
+
+          <div class="text">
+            <h2>Untitled 3</h2>
+            <p>empty decription lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+            <a href="https://github.com/chebupa" class="link button" target="_blank" rel="noreferrer">View Project</a>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="project blockTransition right">
+          <div>
+            <div class="image" style="
+              background-image: url('images/blank/blank.png');
+              background-image: image-set(
+                url('images/blank/blank.webp'),
+                url('images/blank/blank.png')
+              );"
+            ></div>
+          </div>
+
+          <div class="text">
+            <span class="tag development">In Development</span>
+            <h2>Untitled 4</h2>
+            <p>empty decription lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+            <a href="https://github.com/chebupa" class="link button" target="_blank" rel="noreferrer">View Project</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- GitHub -->
+      <section class="inverted">
+        <div class="github">
+          <h2>
+            <i class="fa-brands fa-github"></i> GitHub
+          </h2>
+          <p>Check out my GitHub for some other projects I've worked on!</p>
+          <a href="https://github.com/chebupa" class="button" target="_blank" rel="noreferrer">Visit GitHub</a>
+        </div>
+
+        <div class="github projects">
+          <div class="githubProject">
+            <div>
+              <h3>
+                Untitled1
+                <i class="fa-brands fa-react" style="color: #38b3f0"></i>
+              </h3>
+              <p>Empty description.</p>
+            </div>
+
+            <div class="links">
+              <a href="https://github.com/chebupa" class="button" target="_blank" rel="noreferrer">View Repo</a>
+              <span class="github-label">
+                <i class="fa-solid fa-star"></i> 156 </span>
+              <span class="github-label">
+                <i class="fa-solid fa-code-branch"></i> 2 </span>
+            </div>
+          </div>
+
+          <div class="githubProject">
+            <div>
+              <h3>
+                Untitled2
+                <i class="fa-brands fa-react" style="color: #38b3f0"></i>
+              </h3>
+              <p>Empty description.</p>
+            </div>
+
+            <div class="links">
+              <a href="https://github.com/chebupa" class="button" target="_blank" rel="noreferrer">View Repo</a>
+              <span class="github-label">
+                <i class="fa-solid fa-star"></i> 93 </span>
+              <span class="github-label">
+                <i class="fa-solid fa-code-branch"></i> 1 </span>
+            </div>
+          </div>
+
+          <div class="githubProject">
+            <div>
+              <h3>
+                Untitled3
+                <i class="fa-brands fa-react" style="color: #38b3f0"></i>
+              </h3>
+              <p>Empty description.</p>
+            </div>
+
+            <div class="links">
+              <a href="https://github.com/chebupa" class="button" target="_blank" rel="noreferrer">View Repo</a>
+              <span class="github-label">
+                <i class="fa-solid fa-star"></i> 11 </span>
+              <span class="github-label">
+                <i class="fa-solid fa-code-branch"></i> 0 </span>
+            </div>
+          </div>
+
+          <div class="githubProject">
+            <div>
+              <h3>
+                Untitled4
+                <i class="fa-brands fa-react" style="color: #38b3f0"></i>
+              </h3>
+              <p>Empty description.</p>
+            </div>
+
+            <div class="links">
+              <a href="https://github.com/chebupa" class="button" target="_blank" rel="noreferrer">View Repo</a>
+              <span class="github-label">
+                <i class="fa-solid fa-star"></i> 107 </span>
+              <span class="github-label">
+                <i class="fa-solid fa-code-branch"></i> 22 </span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="sponsor">
+          <h2>Support my work</h2>
+
+          <p>If you like my work, consider <b>buying me a coffee</b> or <b>sponsoring me on Donatation Alerts.</b>
+            <br>I would really appreciate it!
+          </p>
+
+          <div class="links">
+            <a href="https://www.buymeacoffee.com/chebupa" target="_blank" rel="noreferrer">
+              <img src="images/donation/bmc-button.svg" alt="Buy me a coffee" width="210" height="59">
+            </a>
+
+            <p>or</p>
+
+            <a href="https://www.donationalerts.com/r/chebupa" target="_blank" rel="noreferrer">
+              <img src="images/donation/DA_Logo_Color.svg" alt="Buy me a coffee" width="210" height="59">
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="links">
+        <span>© Aristarh Shakulin 2023</span>
+        <a href="">Privacy Policy</a>
+      </div>
+    </footer>
+  </body>
 </html>
