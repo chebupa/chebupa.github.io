@@ -1,0 +1,77 @@
+/* all global css variables */
+
+:root {
+	--accentColor: #007AFF;
+	--accentColorDark: #0A84FF;
+	--primaryColor: #111;
+	--primaryColorDark: #EFEFEF;
+	--secondaryColor: #666;
+	--secondaryColorDark: #E9E9EF;
+	--tertiaryColor: #999;
+	--primaryAlternateColor: #fff;
+
+	--primaryBackground: #fafafa;
+	--primaryBackgroundDark: #1C1C1E;
+	--secondaryBackground: #fff;
+    --mutedBackground: #f6f8fa;
+    --tertiaryBackground: rgba(175,184,193,0.2);
+    --borderColorDefault: var(--tertiaryColor);
+
+    --borderColorDefault: #d0d7de;
+    --border: 1px solid var(--borderColorDefault);
+
+	--shadow: 0px 0px 5px rgba(0, 0, 0, 0.08);
+	--cardShadow: 0px 2px 5px rgba(0, 0, 0, 0.08);
+    --drop-shadow-filter: drop-shadow(0px 8px 24px rgba(148, 148, 148, 0.15));
+
+	--font-family: "SF Pro", -apple-system, BlinkMacSystemFont, sans-serif;
+
+	--font-size-base: 20px;
+
+	--font-size-h1: 2.5rem;
+	--font-size-h2: 2.0rem;
+	--font-size-h3: 1.4rem;
+	--font-size-h4: 1.0rem;
+	--font-size-callout: 0.9rem;
+	--font-size-logo: 1rem;
+
+	--thin: 100;
+	--extraLight: 200;
+	--light: 300;
+	--normal: 400;
+	--medium: 500;
+	--semiBold: 600;
+	--bold: 700;
+	--extraBold: 800;
+	--heavy: 900;
+
+	--headerHeight: 64px;
+    --content-width: 950px;
+    --content-padding: 2em 1em;
+
+    --border-radius-sm: 6px;
+    --border-radius-md: 12px;
+    --border-radius-lg: 24px;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--accentColor: #0A84FF;
+		--accentColorDark: #0A84FF;
+		--primaryColor: #EFEFEF;
+		--primaryColorDark: #EFEFEF;
+		--secondaryColor: #E9E9EF;
+		--secondaryColorDark: #E9E9EF;
+		--tertiaryColor: #999;
+		--primaryAlternateColor: #fff;
+
+		--primaryBackground: #111;
+		--primaryBackgroundDark: #1C1C1E;
+		--secondaryBackground: #1C1C1E;
+        --mutedBackground: #161b22;
+        --tertiaryBackground: rgba(110,118,129,0.4);
+
+        --borderColorDefault: #30363d;
+        --border: 1px solid var(--borderColorDefault);
+	}
+}

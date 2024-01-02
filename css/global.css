@@ -2,158 +2,6 @@
 
 @import "github-dark-dimmed.min.css"; /* (prefers-color-scheme: dark);*/
 
-:root {
-	--accentColor: #007AFF;
-	--accentColorDark: #0A84FF;
-	--primaryColor: #111;
-	--primaryColorDark: #EFEFEF;
-	--secondaryColor: #666;
-	--secondaryColorDark: #E9E9EF;
-	--tertiaryColor: #999;
-	--primaryAlternateColor: #fff;
-
-	--primaryBackground: #fafafa;
-	--primaryBackgroundDark: #1C1C1E;
-	--secondaryBackground: #fff;
-    --mutedBackground: #f6f8fa;
-    --tertiaryBackground: rgba(175,184,193,0.2);
-    --borderColorDefault: var(--tertiaryColor);
-
-    --borderColorDefault: #d0d7de;
-    --border: 1px solid var(--borderColorDefault);
-
-	--shadow: 0px 0px 5px rgba(0, 0, 0, 0.08);
-	--cardShadow: 0px 2px 5px rgba(0, 0, 0, 0.08);
-    --drop-shadow-filter: drop-shadow(0px 8px 24px rgba(148, 148, 148, 0.15));
-
-	--font-family: "SF Pro", -apple-system, BlinkMacSystemFont, sans-serif;
-
-	--font-size-base: 20px;
-
-	--font-size-h1: 2.5rem;
-	--font-size-h2: 2.0rem;
-	--font-size-h3: 1.4rem;
-	--font-size-h4: 1.0rem;
-	--font-size-callout: 0.9rem;
-	--font-size-logo: 1rem;
-
-	--thin: 100;
-	--extraLight: 200;
-	--light: 300;
-	--normal: 400;
-	--medium: 500;
-	--semiBold: 600;
-	--bold: 700;
-	--extraBold: 800;
-	--heavy: 900;
-
-	--headerHeight: 64px;
-    --content-width: 950px;
-    --content-padding: 2em 1em;
-
-    --border-radius-sm: 6px;
-    --border-radius-md: 12px;
-    --border-radius-lg: 24px;
-}
-
-@media (prefers-color-scheme: dark) {
-	:root {
-		--accentColor: #0A84FF;
-		--accentColorDark: #0A84FF;
-		--primaryColor: #EFEFEF;
-		--primaryColorDark: #EFEFEF;
-		--secondaryColor: #E9E9EF;
-		--secondaryColorDark: #E9E9EF;
-		--tertiaryColor: #999;
-		--primaryAlternateColor: #fff;
-
-		--primaryBackground: #111;
-		--primaryBackgroundDark: #1C1C1E;
-		--secondaryBackground: #1C1C1E;
-        --mutedBackground: #161b22;
-        --tertiaryBackground: rgba(110,118,129,0.4);
-
-        --borderColorDefault: #30363d;
-        --border: 1px solid var(--borderColorDefault);
-	}
-}
-
-/**************************
-	0.0 BASIC SETUP *********
-**************************/
-
-* {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	text-decoration: none;
-	box-sizing: border-box;
-}
-
-html, body {
-	width: 100%;
-	height: 100%;
-	font-family: var(--font-family);
-	font-size: var(--font-size-base);
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-
-    background-color: var(--secondaryBackground);
-}
-
-main {
-    flex: 1;
-    padding-top: var(--headerHeight);
-    background-color: var(--primaryBackground);
-}
-
-h1 {
-    font-size: var(--font-size-h1);
-    font-weight: var(--bold);
-    color: var(--primaryColor);
-    line-height: 1.5em;
-}
-
-h2 {
-    font-size: var(--font-size-h2);
-    font-weight: var(--bold);
-    color: var(--primaryColor);
-    line-height: 1.5em;
-}
-
-h3 {
-    font-size: var(--font-size-h3);
-    font-weight: var(--bold);
-    color: var(--primaryColor);
-    line-height: 1.5em;
-}
-
-h4 {
-    font-size: var(--font-size-h4);
-    font-weight: var(--bold);
-    color: var(--primaryColor);
-    line-height: 1.5em;
-}
-
-p {
-    color: var(--primaryColor);
-    line-height: 1.5em;
-}
-
-a {
-    color: var(--accentColor);
-    text-decoration: none;
-    transition: 0.2s ease-in-out;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
 /**************************
 	1.0 NAV **********
 **************************/
@@ -888,3 +736,16 @@ section .sponsor .links {
         gap: 0.5em;
     }
 }
+
+
+.element-animation {
+    /* Скроем элемент в начальном состоянии */
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  
+  .element-animation.element-show {
+    opacity: 1;
+    transition: all 1.5s;
+    transform: translateY(0%);
+  }
