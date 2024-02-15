@@ -4,14 +4,14 @@
 	--accentColor: #007AFF;
 	--accentColorDark: #0A84FF;
 	--primaryColor: #111;
-	--primaryColorDark: #EFEFEF;
+	--primaryColorDark: #000000;
 	--secondaryColor: #666;
-	--secondaryColorDark: #E9E9EF;
+	--secondaryColorDark: #070708;
 	--tertiaryColor: #999;
 	--primaryAlternateColor: #fff;
 
 	--primaryBackground: #fafafa;
-	--primaryBackgroundDark: #1C1C1E;
+	--primaryBackgroundDark: #1c1c1e16;
 	--secondaryBackground: #fff;
     --mutedBackground: #f6f8fa;
     --tertiaryBackground: rgba(175,184,193,0.2);
