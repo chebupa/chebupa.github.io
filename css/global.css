@@ -19,7 +19,7 @@ nav {
     padding: 0.5rem;
     padding-left: 1rem;
     
-	background-color: #1d1d1fa5;
+	background-color: var(--secondaryBackground);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
 	box-shadow: var(--shadow);
