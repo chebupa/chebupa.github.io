@@ -19,7 +19,8 @@ nav {
     padding: 0.5rem;
     padding-left: 1rem;
     
-	background-color: var(--secondaryBackground);
+	background-color: #1d1d1fa5;
+    backdrop-filter: blur(10px);
 	box-shadow: var(--shadow);
 	border-bottom: var(--border);
 }
@@ -32,12 +33,13 @@ nav div {
     height: 100%;
 }
 nav img {
-    width: 2.25rem;
-    height: 2.25rem;
+    width: 2rem;
+    height: 2rem;
 }
 nav p {
     line-height: 100%;
     font-weight: var(--semiBold);
+    font-size: 0.85rem;
 }
 
 header {
