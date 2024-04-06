@@ -20,7 +20,8 @@ nav {
     padding-left: 1rem;
     
 	background-color: #1d1d1fa5;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
 	box-shadow: var(--shadow);
 	border-bottom: var(--border);
 }
